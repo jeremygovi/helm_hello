@@ -23,4 +23,5 @@ jobs:
         uses: helm/chart-releaser-action@v1.4.0
         env:
           CR_TOKEN: "${{ secrets.MY_SEC_TOKEN }}"
-          
+        with:
+          github-token: ${{ secrets.MY_SEC_TOKEN }}
