@@ -3,6 +3,24 @@ entries:
   hello:
   - apiVersion: v2
     appVersion: v4
+    created: "2022-05-10T12:42:09.813117966Z"
+    description: A Helm chart for my simple hello application
+    digest: d7c9375cc8eda6dfb76d7fbeea9c2e9b939aa89b816436606a8f067659bc57e0
+    home: https://www.kleinloog.ch/post/go-cli/
+    maintainers:
+    - email: arnoud@kleinloog.ch
+      name: Arnoud Kleinloog
+      url: https://www.kleinloog.ch/
+    name: hello
+    sources:
+    - https://github.com/akleinloog/hello
+    - https://github.com/akleinloog/hello-helm
+    type: application
+    urls:
+    - https://github.com/jeremygovi/helm_hello/releases/download/hello-0.9.10/hello-0.9.10.tgz
+    version: 0.9.10
+  - apiVersion: v2
+    appVersion: v4
     created: "2022-05-10T12:36:59.840441699Z"
     description: A Helm chart for my simple hello application
     digest: 449cdb4078d697dffad5a273a5e1c663487921e0cf63bb1832ffc28f03535a10
@@ -37,4 +55,4 @@ entries:
     urls:
     - https://github.com/jeremygovi/helm_hello/releases/download/hello-0.9.8/hello-0.9.8.tgz
     version: 0.9.8
-generated: "2022-05-10T12:36:59.840457099Z"
+generated: "2022-05-10T12:42:09.813130266Z"
